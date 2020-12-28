@@ -38,8 +38,6 @@ nav {
     
     nav div.home, nav div.nav_menu {
         width: 100%;
-        font-weight: normal;
-        font-size: 0.85em;
     }
 
     nav div.nav_menu ul {
@@ -65,8 +63,6 @@ nav {
 @media screen and (min-width: 993px) {
     nav div.home {
         width: 35%;
-        font-weight: bold;
-        font-size: 1.15em;
     }
 
 }
@@ -98,8 +94,6 @@ nav.div.home li {
 @media screen and (max-width: 992px) and (min-width: 601px) {
     nav div.home {
         font-weight: normal;
-        font-size: 1em;
-        width: 50%;
     }
     
     nav div.home a {
@@ -123,7 +117,6 @@ nav div.nav_menu ul {
     justify-content: flex-end;
     align-items: center;
     height: 100%;
-    font-size: 1.10em;
 }
 
 nav div.nav_menu li {
@@ -154,10 +147,6 @@ nav div.nav_menu li a:hover {
         width: 50%;
     }
     
-    nav div.nav_menu ul {
-        font-size: .8em;
-    }
-    
     nav div.nav_menu li {
         width: 33%;
     }
@@ -181,7 +170,6 @@ section h1, section h2 {
 }
 
 section h1 {
-    font-size: 2em;
     color: dodgerblue;
 }
 
@@ -214,7 +202,6 @@ section.about div.hero-img h1.hero-text {
     transform: translate(-50%, -50%);
     color: white;
     z-index: 0;
-    font-size: 1.80em;
 }
 
 /* MQ para about */
@@ -222,7 +209,6 @@ section.about div.hero-img h1.hero-text {
 @media screen and (max-width: 600px) {
     section.about div.hero-img h1.hero-text {
         top: 60%;
-        font-size: 2em;
     }
 }
 
@@ -267,24 +253,6 @@ section.portfolio p {
     margin-bottom: 10px;
 }
 
-section.portfolio li {
-    margin-bottom: 10px;
-    text-decoration: none;
-}
-
-section.portfolio ul {
-    list-style-type: none;
-}
-
-section.portfolio a {
-    color: midnightblue;
-    text-decoration: none;
-}
-
-section.portfolio a:hover, section.portfolio a:visited {
-    color: magenta;
-}
-
 /* MQ para cajas portfolio */
   
 @media screen and (max-width: 600px) {
@@ -298,27 +266,6 @@ section.portfolio a:hover, section.portfolio a:visited {
 }
 
 /* SECTION CV TIMELINE */
-
-/* COLORES TIMELINE FUENTE */
-
-section.cv h2, section.cv p, section.cv ul {
-    margin-bottom: 15px;
-}
-
-.titulo {
-    color: dodgerblue;
-    font-weight: bold;
-}
-
-.curso {
-    color: midnightblue;
-    font-weight: bold;
-}
-
-.trabajo {
-    color: magenta;
-    font-weight: bold;
-}
 
 /* ARREGLOS DE ESPACIOS */
 
@@ -507,7 +454,6 @@ section.contact p {
 
 section.contact p label {
     margin-bottom: 5px;
-    font-size: 1em;
     color: white;
 }
 
@@ -518,7 +464,6 @@ input[type="text"], input[type="tel"], input[type="email"], textarea {
     border-bottom: 2px solid white;
     color: white;
     padding: 10px;
-    font-size: 1em;
 }
 
 input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus, textarea:focus {
@@ -530,18 +475,15 @@ input[type="text"]:focus, input[type="tel"]:focus, input[type="email"]:focus, te
 textarea {
     resize: vertical;
     height: 200px;
-    font-size: 1em;
 }
 
 input[type="submit"] {
     background-color: dodgerblue;
     padding: 10px 30px;
     color: white;
-    font-weight: bold;
     border: none;
     outline:none;
     border-radius: 30px;
-    font-size: 1em;
 }
 
 input[type="submit"]:hover {
@@ -604,8 +546,6 @@ footer div.rrss i {
 footer h1 {
     text-align: center;
     padding: 30px;
-    font-size: 1em;
-    font-weight: normal;
 }
 
 /* MQ para botones RRSS del footer */
