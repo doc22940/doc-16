@@ -199,9 +199,9 @@ section h2 {
     }
 
 }
-
+/* img source: https://pixabay.com/photos/cat-pet-animal-ginger-cat-67345/ */
 section.about div.hero-img {
-    background: url(img/about.jpg) no-repeat center;
+    background: url(img/cat-67345_1920.jpg) no-repeat center;
     background-size: cover;
     height: 450px;
 }

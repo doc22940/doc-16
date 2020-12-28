@@ -1,5 +1,7 @@
+// SCROLL REVEAL
 ScrollReveal().reveal('.container', {delay: 500 });
 
+// ANIMATIONS
 document.querySelector('.an_ld').addEventListener('mouseover', () => {
     console.log('Log de prueba de LinkedIn');
     document.querySelector('.an_ld').classList.toggle('animate__heartBeat');
