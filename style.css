@@ -267,22 +267,9 @@ section.portfolio p {
 
 /* SECTION CV TIMELINE */
 
-/* ARREGLOS DE ESPACIOS */
-
 section.cv h1 {
     margin-bottom: 100px;
 }
-
-section.cv ul {
-     list-style-position: inside;
-     list-style-type: none;
- }
-
-section.cv ul li {
-    margin-left: 25px;
-    margin-bottom: 10px;
-}
-  
 /* Set a background color */
 
 section.cv {
